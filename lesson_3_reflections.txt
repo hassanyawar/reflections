@@ -17,3 +17,7 @@ A. With this user can see the changes done by different collaborators without ha
 Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A. Without using Git or GitHub we can collaborate by enforcing all collaborators to work on same local system. Or by sharing the files via physical medium. And it would be really hard because merging different files and maitaining them without change record would slow down the users. Without any information of changes, the user has to manually search out for the changes.
+
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A. If you want to suggest a modifcation but not exactly sure if its right then make a seperate branch so that it can be observed. Changing directly the master branch is less complicated as less commands are involved. Changing on seperate branch is convenient way to suggest modification which other can accept on their will.
