@@ -5,3 +5,23 @@ A. When we initialize the repository, a hidden git folder is created in the same
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A. Staging area is the part where files are being added or removed for the next commit. Working directory is just directory where all of our files are placed. Repository is the directory where our git is inialized.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+A. In staging area, we can add files using 'git add' command to ensure that on commiting the repository on those files will be committed which are specifically added by user.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. If there are some unofficial or experimental changes that needs to tested out then it is recommended not to implement modifications on the master branch. Another branch of the repository is created to try out the new features or modifications. If for some reason the new features fail or introduce a bug then those issues will only be created in the new branch, not the master branch, hence the user can easily revert back to the master branch.
+
+Q. How do the diagrams help you visualize the branch structure?
+
+A. They help us visualize the branch path enabling us to know the parents of the branches.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A. Merging two branches together makes them share their commit history. They share their features of seperate branches in single commit.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. Automatic merging saves time but you have no control over how the data will be merged. Manual merging is time consuming as you have if conflict arises you have to find the conflicted part with in the file and see for yourself how to resolve it but with this approach you definitely have full control on how to resolve the merge conflict.
