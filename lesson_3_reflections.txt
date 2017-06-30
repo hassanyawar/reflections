@@ -9,3 +9,7 @@ A. It gives you complete control. If any bug is introduced by accident then it w
 Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A. Forking is when you clone a repository from someone else's github profile to your profile. Cloning is when you copy a repository from your github profile to your local working system. Branching is to make such commit which will create another branch from the commit history so that any new changes in that branch will not affect the master branch.
+
+Q. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A. With this user can see the changes done by different collaborators without having local changes affected by those changes.
