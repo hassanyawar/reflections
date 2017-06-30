@@ -13,3 +13,7 @@ A. Forking is when you clone a repository from someone else's github profile to 
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A. With this user can see the changes done by different collaborators without having local changes affected by those changes.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. Without using Git or GitHub we can collaborate by enforcing all collaborators to work on same local system. Or by sharing the files via physical medium. And it would be really hard because merging different files and maitaining them without change record would slow down the users. Without any information of changes, the user has to manually search out for the changes.
